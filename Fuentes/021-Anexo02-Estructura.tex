@@ -1,0 +1,57 @@
+\chapter{Estructura del Proyecto}
+\label{estructuraIonic}
+La estructura del proyecto usa la arquitectura de ionic este tiene diferentes componentes  se explican a continuaci'on:
+
+\begin{enumerate}
+\item \textbf{Config y routes:} se desarrollan en el archivo app.js donde se realiza la configuraci'on y las rutas que permiten enlazar el controlador con la la interfaz de usuario correspondiente.
+\item \textbf{Controller:} es el archivo controller.js,  realiza la comunicaci'on a trav'es de la variable scope entre la interfaz de usuario y los servicios de los archivos services.js o factory.js.
+\item \textbf{Directive:} permite crear y usar componentes con aspectos y comportamiento se encuentra en el archivo directive.js .
+\item \textbf{Factory:} tiene dos archivos service.js y factory.js. Este modulo ayuda a obtener los datos del servicio.
+\item \textbf{View:} son los archivos html que contienen la descripci'on visual y obtiene los datos a mostrar el scope.
+\end{enumerate}
+
+El framework ionic, utiliza la estructura de modelo, vista y controlador del proyecto, el c'ual se genera autom'aticamente al momento de crear el proyecto en carpetas y archivos, para organizar el c'odigo en los siguientes archivos, se desarrolla en el anexo 
+
+\begin{verbatim}
+ proyecto
+    |--bower.json (Lista de dependencias y paquetes de Bower)
+    |--.bowerrc
+    |--config.xml (Contiene la configuracion de la plataforma)
+    |--.editorconfig
+    |--.gitignore
+    |--gulpfile.js (Lista de tareas de Gulp)
+    |--hooks/ (Anade scripts que producen eventos)
+    |--ionic.project (Configuracion de Ionic)
+    |--package.json (Dependencias y paquetes de NodeJS)
+    |--platforms/ (Codigo plataformas para compilar)
+    |--plugins/ (Plugins o modulos de aplicacion)
+    |--resources/ (Recursos plataforma concreta)
+    |--scss/ ( Codigo SCSS compilado en www/css)
+    |--www/ (Codigo fuente principal)
+        |--css/ (Estilos que se usa en la aplicacion)
+        |--img/ (Imagenes de nuestro proyecto)
+        |--index.html (Fichero principal, cargamos necesario)
+        |--js/ (El codigo, Javascript de la aplicacion)
+            |--app.js 
+            |--controllers.js
+            |--directive.js
+            |--factory.js
+            |--filter.js
+            |--service.js
+        |--lib (Librerias, del codigo)
+        |--templates/(Vistas de la aplicacion)
+\end{verbatim}
+
+\subsection{Configuraci'on del proyecto}
+
+El presente proyecto utiliza el interprete de linea de comando denominado (cli) de ionic el cual tiene los siguientes comandos:
+
+\begin{verbatim}
+$ ionic start appSAGAA sidemenu (crea proyecto)
+$ ionic platform add android (añadir la plataforma)
+$ ionic build android (compilar el proyecto)
+$ ionic run android (ejecutar el proyecto)
+$ ionic serve (ejecutar, compila y muestra en el navegador )
+\end{verbatim}
+
+Se crea autom'aticamente la carpeta de appSAGAA con  la estructura  de la figura \ref{EstructuraIonic} y el men'u sidemenu por defecto.

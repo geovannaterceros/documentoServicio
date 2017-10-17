@@ -1,0 +1,117 @@
+\select@language {spanish}
+\contentsline {chapter}{Dedicatoria}{I}{Doc-Start}
+\contentsline {chapter}{Agradecimientos}{III}{Doc-Start}
+\contentsline {chapter}{Lista de abreviaturas}{IX}{chapter*.2}
+\contentsline {chapter}{Lista de figuras}{XIII}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introducci'on}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Antecedentes}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Definici'on del problema}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Descripci'on del problema}{1}{section.1.3}
+\contentsline {section}{\numberline {1.4}Objetivo general}{2}{section.1.4}
+\contentsline {section}{\numberline {1.5}Objetivos espec'ificos}{2}{section.1.5}
+\contentsline {section}{\numberline {1.6}Justificaci'on}{2}{section.1.6}
+\contentsline {section}{\numberline {1.7}Alcance}{2}{section.1.7}
+\contentsline {chapter}{\numberline {2}Fundamento te'orico}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Sistemas Distribuidos}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Computaci'on cliente servidor}{3}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}La arquitectura orientada a servicio web}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Protocolo de servicio web}{5}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Protocolo REST}{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Protocolo HTTP}{5}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Unidad de datos del servicio}{5}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Json}{6}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Json web token}{6}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Las aplicaciones m'oviles}{7}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}La aplicaci'on nativa}{7}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}La aplicaci'on web}{7}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Aplicaci'on H'ibrida}{7}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Los dispositivos m'oviles}{7}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}El sistema operativo android}{8}{subsection.2.6.1}
+\contentsline {section}{\numberline {2.7}El dise'no adaptativo}{8}{section.2.7}
+\contentsline {section}{\numberline {2.8}Las plataformas de desarrollo}{8}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}El entorno de desarrollo VIM}{8}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}El navegador web - Chrome}{9}{subsection.2.8.2}
+\contentsline {section}{\numberline {2.9}Herramientas de Desarrollo}{9}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Framework ionic}{9}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}Framework angularJS}{9}{subsection.2.9.2}
+\contentsline {subsection}{\numberline {2.9.3}Framework node.js}{9}{subsection.2.9.3}
+\contentsline {chapter}{\numberline {3}An'alisis de la planilla de notas}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Entrevista}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Diagrama de proceso de llenar la planilla de notas}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}Sistema de apoyo a la gesti'on acad'emica y administrativa}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Funcionalidad de modificar la planilla de notas}{13}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Los pasos para descargar la planilla de notas}{13}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Los pasos para publicar la planilla de notas}{15}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Las restricciones de la p'agina SAGAA}{16}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}El transcriptor}{17}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}La funcionalidad de la aplicaci'on del transcriptor}{17}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Detalle del Transcriptor}{18}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Las restricciones del transcriptor}{20}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}La planilla de notas}{21}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}La informaci'on de la planilla de notas}{21}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}La estructura de la planilla de notas}{23}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Las restricciones de la planilla de notas}{24}{subsection.3.5.3}
+\contentsline {chapter}{\numberline {4}Proceso de desarrollo de servicio}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}El servicio web como componente de reutilizaci'on}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}La ingenier'ia de servicio}{25}{section.4.2}
+\contentsline {section}{\numberline {4.3}Servicios de sistemas heredados}{27}{section.4.3}
+\contentsline {section}{\numberline {4.4}Desarrollo de software con servicios}{27}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Dise'no e implementaci'on del flujo de trabajo}{28}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Pruebas del servicio}{28}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}El dise'no metodolog'ico}{29}{section.4.5}
+\contentsline {section}{\numberline {4.6}Conclusiones}{30}{section.4.6}
+\contentsline {chapter}{\numberline {5}Dise'no e implementaci'on del servicio web}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Identificar el candidato a servicio}{31}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Requerimientos del servicio web}{31}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Dise'no del servicio}{32}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}La etapa de dise'no de interfaz l'ogica}{32}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Dise'no de mensaje}{33}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Desarrollo de WSDL}{34}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Especificaci'on del servicio}{36}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Implementaci'on y despliegue del servicio}{37}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Desarrollo de la implementaci'on del servicio}{39}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Herramientas y configuraci'on para la implementaci'ion del servicio}{40}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Estructura del servicio web}{41}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Configuraci'on del servicio web}{41}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Aplicar el servicio web en Express}{41}{subsection.5.3.4}
+\contentsline {chapter}{\numberline {6}An'alisis y Dise'no de la aplicaci'on m'ovil}{45}{chapter.6}
+\contentsline {section}{\numberline {6.1}Requerimientos}{45}{section.6.1}
+\contentsline {section}{\numberline {6.2}Desarrollo de m'odulos del proyecto}{45}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Lista de m'odulos del proyecto}{46}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2} Lista de submodulo del proyecto}{46}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3} Dise'no de interfaz }{46}{section.6.3}
+\contentsline {section}{\numberline {6.4}Dise'no de la comunicaci'on entre cliente y servicio web}{48}{section.6.4}
+\contentsline {chapter}{\numberline {7}Implementaci'on de la aplicaci'on m'ovil}{49}{chapter.7}
+\contentsline {section}{\numberline {7.1}Herramienta y configuraci'on de la aplicaci'on m'ovil}{49}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Estructura del Proyecto}{50}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Configuraci'on del proyecto}{51}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Herramientas Extras}{51}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Framework cordova}{52}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}PouchDB}{52}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Base de datos websql}{53}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Almacenamiento local}{53}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Interceptor}{53}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Json web token}{53}{subsection.7.2.6}
+\contentsline {section}{\numberline {7.3}Implementaci'on del Proyecto}{54}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}El primer intento o iteraci'on la configuraci'on para conectarse al servicio web}{54}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}El segundo intento o iteraci'on la sesi'on}{55}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}El tercer intento o iteraci'on trabajar sin el servicio web}{56}{subsection.7.3.3}
+\contentsline {chapter}{\numberline {8}Implementacion del dise'no adaptativo para la aplicaci'on m'ovil}{59}{chapter.8}
+\contentsline {section}{\numberline {8.1}Dise'no adaptativo o responsive}{59}{section.8.1}
+\contentsline {section}{\numberline {8.2}Componentes de Ionic}{59}{section.8.2}
+\contentsline {section}{\numberline {8.3}Implementaci'on de flexbox}{60}{section.8.3}
+\contentsline {section}{\numberline {8.4}Visualizaci'on del contenido con flexbox}{60}{section.8.4}
+\contentsline {chapter}{\numberline {9}Pruebas del servicio web a trav'es de la aplicaci'on m'ovil}{63}{chapter.9}
+\contentsline {section}{\numberline {9.1}Descargar la planilla de notas}{63}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}La sesi'on}{63}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Seleccionar la carrera para descargar la planilla de notas retorna la planilla de notas}{64}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.2}Modificar la planilla de notas}{65}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Filtrar y convierte la planilla de notas}{65}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Enviar la planilla de notas}{65}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.3}Modificar la planilla de notas}{66}{subsection.9.2.3}
+\contentsline {section}{\numberline {9.3}Adjuntar la planilla de notas}{66}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Seleccionar la gestion adjuntar la planilla de notas}{66}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Seleccionar el grupo para habilitar estudiante}{67}{subsection.9.3.2}
+\contentsline {chapter}{\numberline {10}Conclusiones}{69}{chapter.10}
+\contentsline {chapter}{Bibliograf'ia}{69}{chapter.10}
+\contentsline {chapter}{\numberline {A}Cuestionario de identificacion del servicio web}{73}{appendix.Alph1}

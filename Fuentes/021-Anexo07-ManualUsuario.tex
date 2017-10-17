@@ -1,0 +1,102 @@
+\chapter{MANUAL DE USUARIO}
+\label{ManualU}
+\section{Introducci'on}
+El presente manual est'a elaborado con la finalidad de brindarle informaci'on acerca del funcionamiento de MultiPile Matrix.
+
+Es de mucha importancia leer este manual antes de utilizar MultiPile Matrix.
+
+\section{Descripci'on}
+MultiPile Matrix es una herramienta que proporciona distintas funciones para el an'alisis y la navegaci'on en la evoluci'on de datos (dos criterios relacionados en el tiempo).
+
+\section{MultiPile Matrix}
+Para acceder a MultiPile Matrix solo es necesario ejecutar Pharo con la imagen \emph{MultiPileMatrix.image} que se encuentra en el CD, en caso de Windows y Mac OS solo es necesario arrastrar la imagen a la aplicaci'on, mientras que para Linux se debe ejecutar Pharo y como argumento la imagen.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.85\textwidth]{FiguraAG01VentanaMM}
+    \caption{Ejecutando MultiPile Matrix. Fuente: Elaboraci'on propia}
+    \label{fig:VentanaMM}
+\end{figure}
+
+Una vez realizados los anteriores pasos se presenta una ventana como se observa en la figura \ref{fig:VentanaMM}.
+
+\section{Funciones}
+MultiPile Matrix presenta funciones para cargar archivo, apilaci'on de tiempos, apilaci'on de objetos en base a su relaci'on, resaltado de objetos y resaltado de relaciones en base a valor. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{FiguraAG02DivisionMM}
+    \caption{Partes de la interfaz de MultiPile Matrix. Fuente: Elaboraci'on propia}
+    \label{fig:DivisionMM}
+\end{figure}
+
+Las distintas funciones de MultiPile Matrix estan organizadas en la interfaz como se muestra en la figura \ref{fig:DivisionMM}, cada una se describe a continuaci'on. 
+
+
+\subsection{Cargar un archivo}
+En primer lugar para analizar datos, se necesita cargar un archivo .csv, como se observa en la figura \ref{fig:DivisionMM} inciso 1), MultiPile Matrix tiene el boton \emph{Load file csv} para realizar esta tarea. El archivo que se desea cargar debe cumplir con las siguientes caracter'isticas:
+
+\begin{itemize}
+\item El archivo debe tener como primera fila las cabeceras.
+\item El archivo debe tener una columna identificada con la cabecera time y cada valor de esta columna debe ser un numero.
+\item El archivo debe tener una columna identificada con la cabecera weigth y cada valor de esta columna debe ser un numero.
+\item El archivo debe tener dos columnas m'as aparte de las anteriormente mencionadas, en estas dos columnas se encuentran los objetos que se relacionan.
+\end{itemize}
+
+Por lo tanto, el archivo debe tener minimamente 4 columnas, como se observa en la figura \ref{fig:Archivo1}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{FiguraAG03Archivo}
+    \caption{Ejemplo de archivo. Fuente: Elaboraci'on propia}
+    \label{fig:Archivo1}
+\end{figure}
+
+La informaci'on anterior tambi'en se puede observar con el boton \emph{Help with the file} presente en la figura \ref{fig:DivisionMM} inciso 1).
+En caso de que el archivo no respete la estructura, no se lo tomara en cuenta.
+
+\subsection{Definir par'ametros}
+Se debe definir en que columna estan los valores de: tiempo, objetos inicio, objetos destino y la relaci'on. Para ello se presenta el inciso 2) de la figura \ref{fig:DivisionMM}.
+
+Por defecto esos valores estan de la siguiente forma: tiempo (primera columna), objetos inicio (segunda columna), objetos destino (tercera columna) y relaci'on (cuarta columna). Sin embargo, las otras funciones como apilaci'on y resaltado no se encontraran disponibles hasta escoger debidamente los par'ametros.
+
+Estos par'ametros seran definidos al realizar un clic sobre el boton \emph{Accept}, para asi llenar los datos de acuerdo a los par'ametros para tener la opci'on de utilizar las funciones de apilaci'on y resaltado.
+
+\subsection{Funciones apilaci'on y resaltado}
+Para todas las funciones de apilaci'on y resaltado se deben llenar los campos necesarios, una vez llenados esos campos se puede agregar la configuraci'on correspondiente realizando clic en el boton \emph{+}, agregandola en el panel del lado derecho.
+
+Para remover alguna configuraci'on, esta debe ser seleccionada del panel del lado derecho y al realizar un clic en el boton \emph{x}, esta se eliminar'a del panel.
+
+\subsection{Apilaci'on por tiempo}
+Esta funci'on es el inciso 3) de la figura \ref{fig:DivisionMM}; permite apilar tiempos de acuerdo al intervalo $[inicio, final]$, por lo cual para apilar por tiempo se necesitan dos campos: el tiempo de inicio y el tiempo final.
+
+\subsection{Apilaci'on por objeto}
+Esta funci'on es el inciso 4) de la figura \ref{fig:DivisionMM}; permite apilar los tiempos adyacentes que respetan un criterio en base a un objeto. Para realizar esta funci'on se necesitan dos campos: el criterio y el objeto. 
+
+Para el criterio se puede escoger entre:
+\begin{itemize}
+\item \emph{contains:} Hace referencia a que todo tiempo que se apile, debe tener una relaci'on mayor a 0 que involucre al objeto escogido.
+\item \emph{notContains:} Hace referencia a que todo tiempo que se apile, no debe tener una relaci'on mayor a 0 que involucre al objeto escogido.
+\end{itemize}
+
+En caso de tener apilaciones de tiempo se ignora a esas apilaciones y se les da prioridad a las apilaciones por objeto.
+
+En caso de tener varias apilaciones por objeto se realiza las apilaciones de tiempo en base a si un tiempo cumple con cualquiera de los criterios que se encuentran en el panel del lado derecho.
+
+\subsection{Resaltado por objeto}
+Esta funci'on es el inciso 5) de la figura \ref{fig:DivisionMM}; permite resaltar con un color todas las relaciones mayores a 0 en las que esta involucrado un objeto, para ello se debe seleccionar dos campos: color y objeto. El color seleccionado actuar'a como el color que representa el valor m'aximo.
+
+\subsection{Resaltado por valor}
+Esta funci'on es el inciso 6) de la figura \ref{fig:DivisionMM}; permite resaltar con un color todas las relaciones que satisfacen un criterio, para ello se debe seleccionar tres campos: color, criterio y valor. El color seleccionado actuar'a como el color que representa el valor m'aximo.
+
+Los criterios que se tiene como opciones son:
+\begin{itemize}
+\item \emph{\textgreater} Hace referencia a las relaciones que son mayores a un valor dado.
+\item \emph{\textless} Hace referencia a las relaciones que son menores a un valor dado.
+\item \emph{=} Hace referencia a las relaciones que son iguales a un valor dado.
+\end{itemize}
+
+Para ambos casos de resaltado si una relaci'on satisface m'as de un criterio; es decir, tiene asignados dos o m'as colores, solo se escoge un color.
+
+\subsection{Visualizar}
+Finalmente una vez el archivo esta cargado y la configuraci'on es la deseada, se presenta el boton \emph{Visualize} que es el inciso 7) de la figura \ref{fig:DivisionMM} para mostrar la visualizaci'on requerida.

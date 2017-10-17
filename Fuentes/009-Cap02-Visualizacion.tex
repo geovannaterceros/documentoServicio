@@ -1,0 +1,144 @@
+\chapter{Visualizaci'on de datos}
+\label{capitulodos}
+
+Como se menciona en la secci'on \ref{sec:D} 'este cap'itulo presenta la definici'on de visualizaci'on de datos, las aplicaciones en el desarrollo de software que satisface la herramienta de 'este proyecto, como se modelan los datos relacionados, las representaciones visuales que se pueden utilizar, las t'ecnicas de visualizaci'on m'as usadas y una lista de herramientas interesantes por el uso de t'ecnica y representaci'on visual. Tratando as'i de los objetivos 1 y 2 de la secci'on \ref{sec:oe}.
+
+\section{Definici'on}
+La visualizaci'on de datos trata de la creaci'on y el estudio de la representaci'on visual de datos. Su objetivo principal es el de comunicar la informaci'on de manera m'as clara y efectiva a trav'es de medios gr'aficos \cite{Friedman08,Few04tapping}. Actualmente la visualizaci'on de datos es usada no solo para contar historias, sino tambi'en para comunicar informaci'on de manera r'apida, para identificar relaciones, tendencias, patrones, etc.\cite{Few13,Few07,Few04}
+
+
+\section{Aplicaci'on en el desarrollo de software}
+La visualizaci'on de datos se puede aplicar a varios campos \cite{Friendly08,Friendly01}, en el caso de esta herramienta se pretende aplicar a datos emergentes del desarrollo de software, concentrandose en dos criterios que se relacionan durante el tiempo, se presentan algunos ejemplos en la tabla \ref{tab:Tabla2.1}
+
+%\begin{table}[h]
+%\centering
+%\begin{tabular}{|l|l|p{5.5cm}|}
+%\hline
+%\textbf{\textnumero} & \textbf{Criterios Relacionados} & \textbf{Tema}                                           \\ \hline
+%1               & Autor - Clase & Contribuidores que modifican las clases de un proyecto. \\ \hline
+%2               & Clase -­ Clase & Interacci'on entre clases.                              \\ \hline
+%3               & Autor - Autor & Trabajo en equipo.                                      \\ \hline
+%\end{tabular}
+%\caption{Ejemplo de criterios relacionados en datos emergentes del desarrollo de software. Recopilaci'on de informaci'on del art'iculo \emph{Asking and answering questions during a programming change task}}
+%\label{tab:Tabla2.1}
+%\end{table}
+
+Para representar relaciones entre datos, como los anteriormente mencionados, se debe entender primero lo que es un grafo.
+
+\section{Grafos}
+Un grafo es una estructura matem'atica, que esta compuesto por un conjunto de vertices conectados a trav'es de aristas; esta estructura es utilizada para modelar la relaci'on entre objetos, donde los vertices representan a los objetos y las aristas representan las relaciones entre un par de objetos.\cite{Gross04,PavGraph}
+Por ejemplo en la figura \ref{fig:MapaBolivia} se presenta una representaci'on visual de un grafo que muestra la relaci'on entre departamentos vecinos de Bolivia.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Figura0201MapaBolivia}
+    \caption{Diagrama de nodos enlazados que muestra la relaci'on entre departamentos vecinos de Bolivia. Fuente: Elaboraci'on propia}
+    \label{fig:MapaBolivia}
+\end{figure}
+
+Existen distintos tipos de grafos debido a sus caracter'isticas, para fines de este proyecto se utiliza un grafo dirigido con pesos.
+El grafo dirigido con pesos tiene las siguientes caracter'isticas:
+\begin{itemize}
+\item Cada arista tiene asociado un peso; es decir, un valor representativo  en la relaci'on entre el par de objetos que conecta la arista.
+\item Cada arista tiene un v'ertice de origen y un v'ertice de destino; por lo tanto se dice que la relaci'on esta orientada de origen a destino (origen - destino), y es un par ordenado.  
+\end{itemize}
+
+Por lo tanto la estructura de una arista que pertenece a este tipo de grafo es: \\
+$Arista(VerticeOrigen, VerticeDestino, Peso)$ que significa que existe una relaci'on del $VerticeOrigen$ hacia el $VerticeDestino$ con un valor de $Peso$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Figura0202AutorClases}
+    \caption{Diagrama de nodos enlazados que muestra la relaci'on entre Autores que modifican $X$ l'ineas de c'odigo en Clases. Fuente: Elaboraci'on propia}
+    \label{fig:AutorClases}
+\end{figure}
+
+Gracias a un grafo dirigido con pesos es posible la representaci'on de las relaciones entre datos con un posible valor que los caracteriza. Para los datos del software en la figura \ref{fig:AutorClases} se presenta el criterio relacionado: Autor - Clase, en el cual para todas las aristas el v'ertice de origen es un Autor y el v'ertice final es una Clase. Cada Arista es representada por una flecha, si hay una Arista entre $(Autor_{i}, Clase_{j}, X)$ esto indica que el $Autor_{i}$ modifico la $Clase_{j}$, y en este caso el peso $X$,  representa un valor de inter'es: la cantidad de l'ineas que el $Autor_{i}$ modifico en la $Clase_{j}$.
+
+%\begin{table}[!h]
+%\centering
+%\begin{tabular}{|p{0.25cm}|p{2.25cm}|p{1.3cm}|p{1.3cm}|p{3.3cm}|p{2.5cm}|}
+%\hline
+%\textbf{\textnumero} & \textbf{Criterios Relacionados} & \textbf{V'ertice Origen} & \textbf{V'ertice Final} & \textbf{Posibles Valores Pesos}                               & \textbf{Tema}                                           \\ \hline
+%1               & Autor - Clase                   & Autor                   & Clase                  & Cantidad l'ineas %modificadas, cantidad de m'etodos modificados. & Contribuidores que modifican las clases de un proyecto. \\ \hline
+%2               & Clase ­- Clase                 & Clase                   & Clase                  & Si hay interacci'on o %no.                                      & Interacci'on entre clases.                              \\ \hline
+%3               & Autor - Autor                   & Autor                   & Autor                  & Cantidad clases modificadas, cantidad de m'etodos modificados. & Trabajo en equipo.                                      \\ \hline
+%\end{tabular}
+%\caption{Datos relacionados emergentes del software con posibles valores de pesos. Recopilaci'on de informaci'on del art'iculo \emph{Asking and answering questions during a programming change task}}
+%\label{tab:Tabla2.2}
+%\end{table}
+
+En la tabla \ref{tab:Tabla2.2} se muestra m'as ejemplos de criterios relacionados, el origen de la relaci'on ($VerticeOrigen$), el destino de la relaci'on ($VerticeDestino$) y los posibles pesos para cada una de esas relaciones ($Peso$).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Figura0203EvolucionGrafos}
+    \caption{Ejemplo de la evoluci'on de un grafo. Fuente: Elaboraci'on propia}
+    \label{fig:EvolucionGrafos}
+\end{figure}
+
+Como anteriormente se menciono, un grafo es utilizado para modelar la relaci'on entre objetos, por ejemplo la relaci'on entre objetos en Septiembre 2016 de la figura \ref{fig:EvolucionGrafos}, pero a medida que pasa el tiempo; estas relaciones van cambiando, entonces se necesita de otro grafo para modelar las relaciones de Octubre 2016 y otros m'as para las relaciones de los siguientes meses. Al realizar esto, se tiene un conjunto de grafos que representan la relaci'on que tienen los objetos uno con otros en distintos tiempos. Y se observa lo que se conoce como evoluci'on de un grafo.\cite{Beck14}
+
+La evoluci'on de grafos o tambi'en conocido como redes din'amicas ha sido uno de los problemas importantes sobre los que se trabaja en ambitos de investigaci'on. \cite{Dynamic} Para visualizar este tema, se tiene que tomar algunas decisiones, tales como: representar un grafo de manera visual y las t'ecnicas para visualizar muchos elementos.
+
+\section{Representaciones Visuales}
+El tipo de representaci'on que se utiliza es importante, porque es lo principal de una visualizaci'on, escoger una mala representaci'on podria causar confusi'on, perdida de informaci'on, etc. Como ya se observo en la anterior secci'on, se busca representar visualmente un grafo y para ello existen distintas alternativas, las m'as usadas son: 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Figura0204GMatrizM}
+    \caption{En la parte derecha(1) se muestra un diagrama de nodos enlazados, al medio (2) su matriz de adyacencia, en la parte izquierda(3) la matriz de adyacencia visual. Fuente: Elaboraci'on propia}
+    \label{fig:GMatrizM}
+\end{figure}
+
+\begin{itemize}
+\item \emph{Matriz de adyacencia}. Se basa en una matriz cuadrada, en la cual cada celda representa el valor de la relaci'on entre objetos; si las aristas no tienen pesos, el valor por defecto para una arista es de 1, en el aspecto de visualizaci'on normalmente esta magnitud es representada por una escala de  colores distintos. En la figura \ref{fig:GMatrizM} la ausencia de una arista entre dos objetos se presenta con un color naranja p'alido; caso contrario, con un naranja fuerte.
+
+
+\item \emph{Diagrama de nodos enlazados}. Es la forma m'as usada para representar un grafo visualmente. Se tratan de figuras geom'etricas, normalmente c'irculos a los que se les suele dar un identificador, estas figuras geom'etricas representan los vertices y las aristas son representadas por una flecha si el grafo es dirigido como en el n'umero 1. de la figura \ref{fig:GMatrizM}; caso contrario, por una linea como en la figura \ref{fig:MapaBolivia}. Dependiendo de si tiene peso o no se suele poner en forma de texto el valor del peso, sobre la arista como se muestra en la figura \ref{fig:AutorClases}; caso contrario, se entiende que el peso es de 1 como en la figura \ref{fig:GMatrizM}.
+\end{itemize}
+
+\section{T'ecnicas de visualizaci'on}
+Tambi'en son importantes las t'ecnicas para visualizar varios elementos, 'este otro tema es importante debido a que se busca ofrecer distintas maneras de que la informaci'on sea m'as clara, entre las m'as comunes y de importancia para 'este proyecto se tiene: 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Figura0205SM}
+    \caption{Un ejemplo de Small multiples para comparar distintas trilogias, utilizando misma escala, misma naturaleza. Fuente: \url{http://www.juiceanalytics.com/writing/better-know-visualization-small-multiples}}
+    \label{fig:SM}
+\end{figure}
+
+\begin{itemize}
+\item \emph{Small multiples}. O yuxtaposici'on, se basa en una serie de gr'aficos similares usando misma escala, mismos ejes, permitiendo as'i comparar de manera sencilla. La idea es la de mostrar diferentes partes de un conjunto de datos a trav'es de varios gr'aficos. En su libro: Envisioning Information \cite{Tufte96} Edward Tufte populariza el termino de small multiples. Un ejemplo se encuentra en la figura \ref{fig:SM}. 
+
+\item \emph{Summarize view}. O resumen, se basa en gr'aficos que te permiten resumir un conjunto de datos. Al tener un resumen la informaci'on se encuentra encapsulada en un solo lugar, esto permite una ganancia visual \cite{Pixel10,Glyph13}.
+
+\item \emph{Flipping}. O animaci'on, se basa en las transiciones animadas para permitir la percepci'on de peque'nos cambios entre im'agenes \cite{Ani14,Ker14}.
+\end{itemize}
+
+\section{Herramientas de visualizaci'on}
+En la actualidad existen distintas herramientas que visualizan la evoluci'on de grafos, no necesariamente de software, 'estas utilizaron las t'ecnicas y representaciones visuales anteriormente mencionadas, pero cada una es diferente debido a como combinaron ambos temas (t'ecnicas y representaci'ones), las m'as recientes son:
+\begin{itemize}
+\item \emph{Cubix}. Es una representaci'on en 3D de un cubo de espacio tiempo, en los cuales cada pedazo del cubo es una matriz de adyacencia. Cubix fue utilizado para la evoluci'on de grafos y trabaja con muchos datos de astrolog'ia. \cite{Cube14}.
+\item \emph{GraphDiaries}. Es un grafo 2D evolutivo. Ofrece animaciones para navegar entre distintos grafos, y permite resaltar esas transiciones. \cite{Ker14}.
+\item \emph{Small MultiPiles}. Es una representaci'on de un cubo de espacio tiempo usando matrices de adyacencia sin necesidad de aplicar 3D, usa una t'ecnica que consiste en apilar las matrices seg'un un umbral que representa cuanto de diferencia deben tener las matrices que pertenecen a una misma pila. Estas pilas de matrices est'an posicionadas lado a lado permitiendo as'i la comparaci'on r'apida. Fue creado para problemas de neurociencia. \cite{Small15}.
+\end{itemize}
+
+\section{Herramienta base}
+Este proyecto se basa en Small MultiPiles, el 'ultimo proyecto anteriormente mencionado. Small MultiPiles nace por la necesidad de encontrar patrones y para visualizar la evoluci'on del funcionamiento de las conexiones del cerebro, los autores consideran las conexiones del cerebro como datos relacionados entre si y alcanza los siguientes objetivos:
+
+\begin{itemize}
+\item Identificar estados temporales.
+\item Identificar transiciones entre estados.
+\item Identificar caracter'isticas topol'ogicas.
+\item Resumir el funcionamiento de las conexiones del cerebro como una secuencia de estados y transiciones.
+\item Comparar estados y transiciones.
+\end{itemize}
+
+Small MultiPiles utiliza una met'afora llamada: \emph{Piling}, que antes fue utilizado para organizar los iconos en los escritorios de las computadoras, agarrando la idea de como una persona ordena su propio escritorio f'isico, apilando libros, papeles, etc. \cite{Desk92}. A continuaci'on se presentan las razones por las que 'esta herramienta es elegida como buen candidato o herramienta base.
+
+La idea de \emph{Piling} fue muy apreciada por los usuarios por la capacidad de agrupar objetos y Small MultiPiles hace uso de esta met'afora permitiendo la interacci'on para explorar las pilas creadas, reducir la complejidad visual y una mezcla de las tres t'ecnicas anteriormente mencionadas: small multiples, flipping y summarize views.
+
+Cada t'ecnica se observa en los elementos de Small MultiPiles, se utiliza flipping en las transiciones de las matrices que pertenecen a una pila, lo cual permite una comparaci'on r'apida entre todas las matrices apiladas. Summarize views es utilizado para resumir las matrices apiladas presentando una matriz de cobertura y barras horizontales de las cuales se habla m'as en el cap'itulo \ref{capitulocuatro}, permitiendo as'i disminuir el espacio que utiliza la visualizaci'on y ofrecer res'umenes. Y finalmente la t'ecnica de small multiples se observa en el conjunto de pilas, que presenta una pila a lado de otra para facilitar la comparaci'on entre pilas.
+
+%(8-10pp)

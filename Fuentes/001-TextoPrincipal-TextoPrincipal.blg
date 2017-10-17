@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 001-TextoPrincipal-TextoPrincipal.aux
+The style file: unsrt.bst
+Database file #1: 014-Bibliografia-Bibliografia.bib
+You're missing a field name---line 57 of file 014-Bibliografia-Bibliografia.bib
+ : 
+ : %% Author = {Blancarte O.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 15 entries,
+            1791 wiz_defined-function locations,
+            528 strings with 5259 characters,
+and the built_in function-call counts, 1945 in all, are:
+= -- 168
+> -- 57
+< -- 0
++ -- 29
+- -- 14
+* -- 30
+:= -- 322
+add.period$ -- 44
+call.type$ -- 15
+change.case$ -- 10
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 91
+empty$ -- 252
+format.name$ -- 14
+if$ -- 453
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 4
+newline$ -- 77
+num.names$ -- 14
+pop$ -- 81
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 40
+stack$ -- 0
+substring$ -- 0
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 14
+width$ -- 17
+write$ -- 153
+(There was 1 error message)

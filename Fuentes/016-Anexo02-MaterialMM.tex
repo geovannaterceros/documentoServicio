@@ -1,0 +1,87 @@
+\chapter{Learning Material for MultiPile Matrix}
+\label{MaterialMM}
+
+MultiPile Matrix is a visualization for navigation of dynamic networks using multiples piles.
+
+This visualization has two parts, a timeline and the matrix piles.
+
+For the matrix piles we need to know that a matrix is used to represent the relation between objects at a specific time, and the relation between objects comes like: from(objects at axis Y) to (objects at axis X). 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{FiguraAB01MatrixPile}
+    \caption{A matrix pile with three matrices.}
+    \label{fig:MatrixPile}
+\end{figure}
+
+The color of a cell is given by the weight of each relationship, by default if there is no relationship the color is very very light orange and if the weight is bigger the color goes more darker to finally get color orange, which represents the maximum value. The way to navigate through the coverage matrix it's by placing the mouse on the relationship wanted, this show us the objects related and the weight.
+
+A \textbf{matrix pile} it's a structure that has adjacency matrix stacked, every matrix at the pile has the same objects and dimensions. A matrix pile has four parts when the number of matrices stacked is more than one, like at the figure \ref{fig:MatrixPile}.
+
+
+The part A are horizontal bars, where each bar represents a matrix stacked, at same order they were stacked. Each bar has cells, the number of objects at the axis X(destine relations), each cell represents the number of relationships of the object. And the number of relationships of the object is given by the number of relationships where the object is the destine of the relationship and the value is greater than zero.
+
+The part B are vertical bars and has the same meaning of the horizontal bars but this represents only the number of relationships of the objects at the axis Y(origin relations).
+If the pile has one matrix stacked, no horizontal and vertical bars are created.
+
+The part C is the coverage matrix, that is a matrix $C$ with the same dimensions and objects of the matrices stacked. This matrix summarizes all matrices stacked at the pile. Each relationship of the coverage matrix has this value: \[C_{ij} = \frac{1}{T} \left(\sum_{n=1}^{T}M_{ij}\right)\]
+
+Where $T$ it's the number of matrices stacked, $M_ij$ is the value of the relationship $i$ to $j$.
+
+If the pile has one matrix the coverage matrix it's the same as the matrix stacked.
+Finally the part D it's a description of the pile, if it has more than one matrix stacked. It shows an interval of time from the first matrix to the last. If it has one matrix stacked, it shows the time of this matrix.
+
+Initially a matrix pile shows the coverage matrix and the horizontal and vertical bars representing the matrices that are stacked. The way to navigate through the matrix pile it's by placing the mouse on the horizontal or vertical bar and the matrix corresponding to that bar will be displayed. The way to see the relationships of a matrix stacked, it's by selecting the corresponding horizontal or vertical bar, immediately the horizontal and the vertical bars are painted in a color that indicates selection (by default: red) and the matrix corresponding to that bars is displayed, giving the ability to navigate through their relationships. The way to see the coverage matrix it's by deselecting any selected matrix in the pile.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{FiguraAB02TL}
+    \caption{Example of timeline with the contributors}
+    \label{fig:TL}
+\end{figure}
+
+The timeline showed at the figure \ref{fig:TL} it's at the left top and the color goes to light light green for the zero value and if the number is bigger the color goes more darker to finally get color dark green. 
+
+This timeline represents the number of relationships of the objects that belongs to the axis X(destine relationship) of the matrix through the time. Each number of relationships it's represented as a cell with color corresponding at this number for every object at that time.
+
+Each cell of the time line it's connected to a adjacency matrix. At default the cells corresponding at one time are separated from the cells corresponding to the next time, if exists a pile of more than one matrix, the cells from the times that are stacked are together.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{FiguraAB03TU}
+    \caption{Matrices apiled when Stefan worked and it's highlighted with blue}
+    \label{fig:TU}
+\end{figure}
+
+There are three ways of create a matrix pile:
+\begin{itemize}
+\item\textbf{pileFrom: start to: last}
+This message stack the adjacency matrices that belongs to the interval of time [start, last].
+For example at the figure \ref{fig:TU}: \textbf{pileFrom: 46 to: 52} 
+\item\textbf{pileIf: aCondition}
+This message stack the continuous adjacency matrices that satisfy this condition. By default are implemented this messages for a matrix: contains: object or notContains: object. The message contains verify if the matrix has a relationship where object is involved and has a weight greater than zero.
+For example at the figure \ref{fig:TU}: \textbf{pileIf: [ :matrix $|$ matrix contains: `StefanReichhart' ]}
+
+\item\textbf{sequenceIf: aCondition}
+This message stack the continuous adjacency matrix that not satisfy this condition. For example at the figure \ref{fig:TU}: \textbf{sequenceIf: [ :matrix $|$ matrix notContains: `StefanReichhart' ]}
+\end{itemize}
+
+If we want to highlight relationships are two ways:
+\begin{itemize}
+\item\textbf{highlight: aCondition using: aColor}
+This message highlight using a color the relationships where a object that satisfy the condition is involved and the value is greater than zero.
+For example at the figure \ref{fig:TU}: highlight: \textbf{[ :object $|$ object = `StefanReichhart' ] using:
+Color blue}
+\item\textbf{highlightWeight: aCondition using: aColor}
+This message highlight using a color the relationships where a object that satisfy the condition is involved and the value is greater than zero.
+For example: \textbf{highlightWeight: [ :weight $|$ weight \textgreater 5 ] using:
+Color green.}
+\end{itemize}
+
+If we want to change the layout of the piles:
+\begin{itemize}
+\item\textbf{layout aConfiguration}
+This message change the layout of the matrix piles.
+For example at the figure \ref{fig:TU}: \textbf{layout grid}.
+\end{itemize}
+

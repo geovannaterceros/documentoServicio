@@ -1,0 +1,12 @@
+\newpage\thispagestyle{plain}
+\addcontentsline{toc}{chapter}{Agradecimientos}
+\bookmark[page=1,level=0]{Agradecimientos}
+\label{Agradecimientos}
+\vspace*{5mm}
+\centerline{{\large Agradecimientos}}
+\vspace{2mm}
+\begin{quote}
+A Dios primeramente, por brindarme la vida y a mi familia por brindarme su amor incondicional y por apoyarme en los momentos mas dif'iciles y por sabios consejos.
+
+
+\end{quote}

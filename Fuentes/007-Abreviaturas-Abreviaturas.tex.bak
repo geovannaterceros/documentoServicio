@@ -1,0 +1,31 @@
+\chapter{Lista de abreviaturas}
+
+\begin{center}
+\begin{tabular}{lcl}
+UMSS   &              & Universidad Mayor de San Sim'on \\
+SAGAA   &                & Sistema de Apoyo a la Gesti'on Acad'emica y Administrativa\\
+WEBSISS  &              & Web Sistema de Informaci'on San Sim'on\\
+UPSI	&				& Unidad de Provisi'on de Servicios de Informaci'on\\
+ASO		&				& Arquitectura Orientado a Servicios\\
+BPMN	&				& Proceso de Negocio de Modelo de Notaci'on\\
+URL 	&				& Localizador Uniforme de Recursos\\
+ODBC	&				& Abrir la Conecctividad de la Base de Datos\\
+BD 		&				& Base de Datos\\
+HTTP	&				& Hipertexto de Transferencia de Protocolo\\
+REST	&				& Representaci'on Est'andar de Transferencia\\
+SaaS	&				& Software como un Servicio\\
+MEMI	&				& Mejoramiento de Ense'nanza de Matem'atica Inform'atica\\
+MVC		&				& Modelo Vista y Controlador\\
+FCYT    &				& Facultad de Ciencias y Tecnolog'ia\\
+UML		&				& Unidad de Lenguaje Modificado\\
+XML		&				& Lenguaje de Marcado Extensible\\
+WSDL	&				& Lenguaje de descripci'on de servicios web\\
+Yaml	&				& Otro lenguaje de marcado m'as\\
+CSS		&				& Hojas de Estilo en Cascada\\
+
+
+
+
+
+\end{tabular}
+\end{center}

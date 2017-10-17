@@ -1,0 +1,28 @@
+\chapter{Conclusiones} 
+%Para desarrollado sincronizac'ion de informaci'on  se puede optimizar con aplicaciones nativas.\\
+
+%Los servicios web es un estudio amplio, el cual se puede identificar diferentes servicios, con un an'alisis mas profundo, se puede buscar otros casos de estudios a parte de la p'agina del SAGAA.\\
+
+%El proceso de desarrollo del servicio web, se  optimiza el trabajo en la identificac'ion de los servicios web.\\
+
+%Para elegir un caso de prueba para crear un servicio, se debe realizar previamento estudios de compartir informaci'on y verificar si la informaci'on a compartir puede ser p'ublica.
+\begin{itemize}
+\item El desarrollo del proyecto cumple con el objetivo general de \textbf{Proveer los servicios de la aplicaci'on SAGAA a trav'es de una aplicaci'on m'ovil para lograr el mejoramiento de la disponibilidad de la informaci'on} ya que se logra construir un servicio y una aplicaci'on m'ovil. El servicio tiene la capacidad de sincronizar la informaci'ion de la p'agina del SAGAA con otras aplicaciones. La aplicaci'on m'ovil tiene el alcance de realizar la funcionalidad de descargar, interpretar, modificar y adjuntar la planilla de notas utilizando el servicio para sincronizar la informaci'on con la p'agina del SAGAA, lo cual estos logros permiten que puedan utilizar la aplicaci'on m'ovil para realizar el proceso de modificar la planilla de notas, garantizando que los datos modificados de la aplicaci'on m'ovil se reflejan en la p'agina del SAGAA.
+
+\item Durante el desarrollo de la aplicaci'on m'ovil y el servicio se representan dificultades de car'acter t'ecnico  mas relacionados al proceso de aprendizaje necesario para realizar la configuraci'on de las herramientas utilizadas, una vez  solucionados estos problemas encontrados, permiti'o que se pudiera utilizar el potencial de las herramientas para conseguir el objetivo propuesto.
+
+\item En el proceso de analisis de la funcionalidad de modificar la planilla de notas se producieron dificultades en la falta de documentaci'on de la planilla de notas y la falta de permiso de usuario docente  para analizar el descargar y publicar la planilla de notas para realizar el desarrollo del proyecto. Al solucionar estos inconvenientes en la etapa de analisis se realiza el c'apitulo del analisis para proseguir con el desarroll del presente proyecto.
+
+\item El desarrollo del proyecto responde el objetivo especifico de \textbf{Implementar la estructura de dato distribuido para la informaci'on local del dispositivo m'ovil}, ya que se logro construir una aplicaci'on con la capacidad de almacenar la informaci'on localmente, esto permite que la aplicaci'on pueda ser utilizada sin conexi'on a internet.
+
+\item En el proceso de crear el servicio se ha utilizado el proceso de arquitectura orientada a servicios tiene la capacidad de realizar el proceso de documentar y dise'nar el servicio, el cual permite explicar los mesajes, la informaci'on de los datos, los protocolos de comunicaci'on y otros. Respaldando la sincronizaci'on del servicio con la p'agina del SAGAA.
+
+\item En la colminaci'on de la realizaci'on de este proyecto se encontraron los siguientes:
+\begin{itemize}
+\item En el proceso presentado como caso de prueba el modificar la planilla de notas utiliza las herramientas de la p'agina del SAGAA y la aplicaci'on del transcriptor. Estas herramientas se complementan es por lo cual se pueden unir para optimizar el proceso de llenar la planilla de notas en la pagina web.
+\item El procedimiento planteado en el caso de prueba de adjuntar la planilla de notas no valida los datos cuando tiene dos o tres sesiones para modificar la planilla de notas, es por lo cual se puede mejorar el validar la informaci'on al adjuntar al servicio y as'i tomar en cuente el que tiene un mayor contenido de informaci'on.
+%\item Promocionar el servicio a otras aplicaciones.
+\item En el procedimiento de transferencia de informaci'on, hacia futuro se podria optizar la seguridad de transferencia de informaci'on, con algun tipo de incriptaci'on o con certificaci'ones.
+\item En la actulidad la pagina del SAGAA tiene muchas funcionalidades y se podrian ampliar la funcionalidad de la aplicaci'on movil con otras funcionalidad de la pagina del SAGAA.
+\end{itemize}
+\end{itemize}

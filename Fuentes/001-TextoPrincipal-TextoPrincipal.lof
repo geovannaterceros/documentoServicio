@@ -1,0 +1,76 @@
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Computaci'on cliente-servidor, adoptado para la realizac'ion del proyecto. Arquitectura cliente servidor de \cite {Somerville2011}\relax }}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Arquitectura orientado a servicio, adoptado para la realizac'ion del proyecto. El objetivo del SOA de \cite {Somerville2011}\relax }}{4}{figure.caption.5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Representaci'on de json por objeto, adoptado para la realizaci'on del proyecto. Estructura de json por objeto, de Figura: Elaboraci'on propia\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Representaci'on del json por arreglo, adoptado para la realizaci'on del proyecto. Estructura de json por arreglo de Fuente: Elaboraci'on propia\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Representaci'on del json web token Fuente: Elaboraci'on propia\relax }}{6}{figure.caption.7}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Capas del sistema operativo de android, adoptado para la realizac'ion del proyecto. Herramienta de android de \cite {Android}\relax }}{8}{figure.caption.8}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama de la funcionalidad de llenar y mostrar las notas, en la p'agina del SAGAA Fuente: Elaboraci'on propia\relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Iniciar sesi'on en la p'agina del SAGAA Fuente: Proporcionado por la UPSI de la FCYT\relax }}{13}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Elegir men'u Ac'ademico Pre-Grado Fuente: Proporcionado por la UPSI de la FCYT\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Elegir la opci'on descargar la planilla de notas Fuente: Proporcionado por la UPSI de la FCYT\relax }}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Opci'on de gesti'on, Fuente: Proporcionado por la UPSI de la FCYT\relax }}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Elegir la descarga de una planilla de notas, Fuente: Proporcionado por la UPSI de la FCYT\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Paso 1: Opci'on de habilitar estudiantes Fuente: Proporcionado por la UPSI de la FCYT\relax }}{15}{figure.caption.15}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Paso 2: Opci'on de adjuntar el archivo seleccionado Fuente: Proporcionado por la UPSI de la FCYT\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Paso 3: Subir planilla de notas por grupo Fuente: Proporcionado por la UPSI de la FCYT\relax }}{16}{figure.caption.17}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Buscar planilla de notas del Transcriptor Fuente: Proporcionado por el MEMI\relax }}{17}{figure.caption.18}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Buscar planilla de notas Fuente: Proporcionado por el MEMI\relax }}{18}{figure.caption.19}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Lista de estudiantes, Fuente: Proporcionado por el MEMI\relax }}{18}{figure.caption.20}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Detalle de la lista de grupo Fuente: Proporcionado por el MEMI\relax }}{19}{figure.caption.21}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Detalle de la lista de estudiantes Fuente: Proporcionado por el MEMI\relax }}{20}{figure.caption.22}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces El proceso de ingenier'ia de servicio, adoptado para la realizac'ion del proyecto. El proceso de ingenier'ia de servicio \cite {Somerville2011}\relax }}{26}{figure.caption.23}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Etapas de la Construcci'on de servicio, adoptado para la realizac'ion del proyecto. Construci'on de servicio\cite {Somerville2011}\relax }}{27}{figure.caption.24}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Secuencia de pasos para el proceso de ingeniera. Fuente: En base a la construcci'on de servicio de Somerville \cite {Somerville2011}\relax }}{29}{figure.caption.25}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Dise'no de interfaz l'ogico para descargar la planilla de nota, Fuente: Elaboraci'on propia\relax }}{32}{figure.caption.26}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Dise'no de interfaz l'ogico para adjuntar la planilla de notas, Fuente: Elaboraci'on propia\relax }}{33}{figure.caption.27}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Dise'no de mensaje de entradas, salidas y excepciones, Fuente: Elaboraci'on propia\relax }}{33}{figure.caption.28}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Proceso de descargar Planilla Notas. Figura: Elaboraci'on propia\relax }}{34}{figure.caption.29}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Proceso de modificar la Planilla de Notas, Fuente: Elaboraci'on propia\relax }}{35}{figure.caption.30}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Proceso de subir a la p'agina del SAGAA, Fuente: Elaboraci'on propia\relax }}{35}{figure.caption.31}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Protocolos de servicio, Fuente: Elaboraci'on propia\relax }}{36}{figure.caption.32}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Diagrama de flujo de trabajo, Fuente: Elaboraci'on propia\relax }}{36}{figure.caption.33}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Dise'no de flujo de trabajo de descarga de la planilla de notas, Fuente: Elaboraci'on propia\relax }}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Dise'no de flujo de trabajo de la descarga de la planilla de notas, Fuente: Elaboraci'on propia\relax }}{38}{figure.caption.35}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Dise'no de flujo de trabajo de subir la planilla de notas, Fuente: Elaboraci'on propia\relax }}{38}{figure.caption.36}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Dise'no de flujo de trabajo planilla de notas, Fuente: Elaboraci'on propia\relax }}{39}{figure.caption.37}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Dise'no de flujo de trabajo planilla de notas para la implementaci'on, Fuente: Elaboraci'on propia\relax }}{39}{figure.caption.38}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Arquitectura de Express, adoptado para la realizaci'on del proyecto. Arquitectura de Express de \cite {Lopez2017}\relax }}{40}{figure.caption.39}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Arquitectura de NodeJs, adoptado para la realizaci'on del proyecto. Arquitectura de NodeJs de \cite {Munoz2013}\relax }}{40}{figure.caption.40}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Interfaz de Usuario primer intento, Fuente: Elaboraci'on Propia\relax }}{47}{figure.caption.41}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Interfaz de Usuario representado en mockups, Fuente: Elaboraci'on Propia\relax }}{47}{figure.caption.42}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Dise'no de comunicaci'on entre el cliente y servicio web Fuente: Elaboraci'on Propia\relax }}{48}{figure.caption.43}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Arquitectura de Ionic, adoptado para la realizac'ion del proyecto Fuente: \cite {Gallego}\relax }}{50}{figure.caption.44}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Arquitectura de Cordova, adoptado para la realizac'ion del proyecto Fuente: \cite {Cantabriatic}\relax }}{52}{figure.caption.45}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Adaptadores de PouchDB, adoptado para la realizac'ion del proyecto Fuente: \cite {Pouch}\relax }}{52}{figure.caption.46}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Base de datos websql, adoptado para la realizac'ion del proyecto Fuente: \cite {Websql1997}\relax }}{53}{figure.caption.47}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Json web token, adoptado para la realizac'ion del proyecto Fuente: Elaboraci'on propia\relax }}{54}{figure.caption.48}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Componente de CSS de Ionic, Fuente: P'agina oficial\relax }}{60}{figure.caption.49}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Visualizacion de contenido vertical en la tablet, Fuente: Elaboraci'on propia\relax }}{61}{figure.caption.50}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Visualizaci'on de contenido horizontal en la tablet, Fuente: Elaboraci'on propia\relax }}{61}{figure.caption.51}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces La aplicaci'on m'ovil solicita la sesi'on al servicio web, Fuente: Elaboraci'on propia\relax }}{64}{figure.caption.52}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Respuesta de la p'agina del SAGAA al servicio web, Fuente: Elaboraci'on propia\relax }}{64}{figure.caption.52}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Aplicaci'on m'ovil selecciona la carrera para descargar la planilla de notas, Fuente: Elaboraci'on propia\relax }}{64}{figure.caption.53}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Peticion descarga de la planilla de notas, Fuente: Elaboraci'on propia\relax }}{64}{figure.caption.53}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Aplicaci'on m'ovil lista los datos de la planilla de notas, Fuente: Elaboraci'on propia\relax }}{65}{figure.caption.54}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Envia los datos de la planilla de notas en Json, Fuente: Elaboraci'on propia\relax }}{65}{figure.caption.54}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Informaci'on general, Fuente: Elaboraci'on propia\relax }}{65}{figure.caption.55}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces La informaci'on de los grupos, Fuente: Elaboraci'on propia\relax }}{65}{figure.caption.55}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces La lista de estudiantes, Fuente: Elaboraci'on propia\relax }}{65}{figure.caption.55}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces El servicio web, recibe la planilla de notas, Fuente: Elaboraci'on propia\relax }}{66}{figure.caption.56}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces El servicio web, busca y reemplaza los datos modificado en la planilla de notas, Fuente: Elaboraci'on propia\relax }}{66}{figure.caption.56}
+\contentsline {figure}{\numberline {9.12}{\ignorespaces El servicio web, envia la gestion y adjunta la planilla de notas, Fuente: Elaboraci'on propia\relax }}{66}{figure.caption.57}
+\contentsline {figure}{\numberline {9.13}{\ignorespaces El servicio web, 'envia el grupo que debe ser modificado, Fuente: Elaboraci'on propia\relax }}{66}{figure.caption.57}
+\contentsline {figure}{\numberline {9.14}{\ignorespaces En el servicio web, es la respuesta de la p'agina del SAGAA, Fuente: Elaboraci'on propia\relax }}{67}{figure.caption.58}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

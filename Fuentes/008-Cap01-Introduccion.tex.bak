@@ -1,0 +1,66 @@
+\chapter{Introducci'on}
+\label{capitulouno}
+%Al pasar el tiempo la tecnolog'ia ha aumentado de forma exponencial en el 'area de la inform'atica, en cuanto al manejo de informaci'on
+En el transcurso del tiempo el manejo de informaci'on de las organizaciones ha mejorado de forma exponencial, a traves del avance en el area de la inform'atica  con los servicio. El c'ual ofrecen una disposicion de informacion accesible a otros clientes. Debido a esta disposici'on de informaci'on las p'aginas web, tienen la necesidad de mejorar la  disposici'on y generalizar el formato de informaci'on con respecto a las nuevas tecnolog'ias.
+Para el presente proyecto se ha utilizado la p'agina del seguimiento y control de los estudiantes, docentes y postulantes,  denominada SAGAA \footnote{SAGAA-Sistema de Apoyo a la Gesti'on Acad'emica y Administrativa}, de la FCYT \footnote{FCYT-Facultad de Ciencias y Tecnolog'ia} de la  UMSS \footnote{UMSS-Universidad Mayor de San Sim'on}.
+
+\section{Antecedentes}
+Los servicios web surgen finalmente para estandarizar la informaci'on y la comunicaci'on entre diferentes plataformas, con la capacidad de interoperar en la web. Estas tecnolog'ias intercambian datos entre ellas con el fin de ofrecer servicios. Es por lo tanto en 1999 se comenz'o a plantear un nuevo est'andar, el cual terminar'ia utilizando XML\footnote{XML- Lenguaje de marcas extensibles}, SOAP\footnote{SOAP- Acceso de protocolos de objetos simples} y REST\footnote{REST - Transferencia de estado representacional}.\cite{Somerville2011}(Sommerville, 2011)
+
+En la actualidad muchos sistemas est'an pasando a ser servicios. Un buen ejemplo es el Twitter, donde gracias a un servicio web particular, cualquier aplicaci'on puede leer o incluso escribir tuits en nombre de los usuarios.\cite{Orlando2005}
+\section{Definici'on del problema}
+%La ausencia de accesibilidad de informaci'on, de la p'agina del SAGAA, en dispositivos actuales.
+Paginas web tienen ausencia de ofrecer servicio a otras aplicaciones porque tienen la informaci'on centralizada, innaccesible y inreconocida es por lo cual no tienen comunicaci'on entre organizaciones.
+
+\section{Descripci'on del problema}
+Algunas paginas tienen las siguientes dificultades:
+%Para el presente proyecto se ha utilizado, como an'alisis de prueba la p'agina del SAGAA, tiene la funcionalidad de descargar modificar y publicar la planilla de notas de los  estudiantes, el c'ual es utilizado por el plantel docente de la FCYT \footnote{FCYT-Facultad de ciencia y tecnolog'ia}.
+
+%Las funcionalidades producen dificultades en los procesos, las cuales son: 
+\begin{itemize}
+%\item Disponibilidad de informaci'on de la planilla de notas no es adecuada
+%\item P'aginas no actualizadas.
+%\item Solo  solo para sistema operativo windows.
+%\item los procesos se repiten y la visibilidad no es adecuada para dispositivos actuales.
+\item Innacesibilidad de informaci'on.
+\item Falta de compartir informaci'on entre organizaci'ones.
+\item Paginas web tiene la falta de ofrecer servicios a otras aplicaciones.
+\item Informaci'on centralizada en una 'unica p'agina web.
+\item Falta de disponibilidad de informaci'on  para el usuario.
+\item Servicios no uitilizados en aplicaci'ones.
+\item informaci'on inreconocido por otras aplicaci'ones.
+
+\end{itemize} 
+%\subsection{Formulaci'on del Problema}
+%¿ C'omo mejorar la p'agina del SAGAA, para que tengan un mejor usabilidad e interacci'on con los dispositivos actuales?
+%\subsection{Definici'on del Problema}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.6\textwidth]%{arbolProblema.png}
+%    \captionsetup{justification=centering, margin=2cm}
+%    \caption{Arbol de problema del proyecto. Fuente: Elaboraci'on propia}
+%\end{figure}
+%Cambiar aplicacion sagaa por pagina web
+\section{Objetivo general}
+\label{og}
+Proveer los servicios de la aplicaci'on SAGAA a trav'es de una aplicaci'on m'ovil para lograr el mejoramiento de la disponibilidad de la informaci'on.
+\section{Objetivos espec'ificos}
+\label{sec:oe}
+\begin{enumerate}
+\item Construir un mecanismo de recolecci'on de datos del Sistema SAGAA para la interacci'on con  dispositivos m'oviles.
+\item Proveer un dise'no adaptativo para la aplicaci'on m'ovil.
+\item Implementar la estructura de dato distribuido para la informaci'on local del dispositivo m'ovil.
+\item Implementar un proceso de sincronizaci'on para la transferencia de informaci'on para la aplicaci'on m'ovil.
+\end{enumerate}
+
+\section{Justificaci'on}
+Debido a que la tecnolog'ia esta avanzando, en gran manera en el 'area de las p'aginas web y en frente a la dificultad del proceso de registro de planilla de notas. Nace el incentivo para llevar a cabo el presente proyecto que pretende crear el servicio web de la p'agina del SAGAA de la Facultad de Ciencias y Tecnolog'ias de la Universidad Mayor de San Sim'on, para lograr la disponibilidad de informaci'on de una manera m'as clara y efectiva a trav'es de una aplicaci'on m'ovil.
+
+\section{Alcance}
+
+Se pretende realizar el proyecto para mejorar la disponibilidad de informaci'on de la p'agina del SAGAA, a trav'es de una aplicaci'on m'ovil, el cu'al tiene las siguientes restricciones:
+\begin{enumerate}
+\item La aplicaci'on m'ovil, solo contempla el modifiar la planilla de notas.
+\item El llenado de planilla de notas, es para la Facultad de Ciencias y Tecnolog'ia.
+\item Se delimitara la version de android.
+\item El servicio no valida la informaci'on recibida por la aplicaci'on m'ovil.

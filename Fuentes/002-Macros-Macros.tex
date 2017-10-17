@@ -1,0 +1,39 @@
+\usepackage{fancybox}
+
+% Abreviaciones
+\newcommand{\umss}[0]{Universidad Mayor de San Sim\'{o}n}
+\newcommand{\fcyt}[0]{Facultad de Ciencias y Tecnolog\'{i}a}
+
+\newcommand{\TITULO}[0]{APLICACI\'{O}N M\'{O}VIL EN ANDROID QUE EXTIENDE SERVICIOS DE LA APLICACI\'{O}N SAGAA PARA LA DISPONIBILIDAD DE INFORMACI\'{O}N}
+\newcommand{\geovana}[0]{Geovanna Lizette Gil Terceros}
+\newcommand{\jorge}[0]{Tutor: Msc. Ing. Orellana Araoz Jorge Walter}
+
+% Definici'on de comandos para formato
+
+\newcommand{\comentarios}[1]{}
+\newcommand{\concepto}[1]{\emph{#1}} 
+\newcommand{\tips}[1]{\comentarios{#1}}
+% hay que poner en el indice los conceptos
+
+\newcommand{\margen}[1]{\marginpar{\small #1}} 
+% notas al margen
+                                   
+\newenvironment{comentario}
+              {\em \noindent {Comentario:}\begin{quotation}}
+              {\end{quotation}\noindent {Fin Comentario}}
+\newcommand{\nota}[1]{\vspace{5mm} {\em \noindent Nota: #1}\\ }
+%\newcommand{\nota}[1]{}
+
+
+\newcommand{\linea}{\noindent \rule{12cm}{0.5mm}}
+
+% Comentarios y notas
+\newcounter{comm}
+\newcommand{\parrafo}[2]{%
+  \ifthenelse{\value{comm}>0}%
+   {#1: \emph{#2}}%
+   {}%
+}
+\newcommand{\falta}[1]{\parrafo{Falta}{#1}}
+\newcommand{\sugerencia}[1]{\parrafo{Sugerencia}{#1}}
+\newcommand{\obs}[1]{\parrafo{Observaci\'{o}n}{#1}}

@@ -1,0 +1,83 @@
+\begin{thebibliography}{10}
+
+\bibitem{Somerville2011}
+Sommerville I.
+\newblock {\em Ingenier'ia de Software}.
+\newblock Pearson Education, Inc., 9a edici'on, Mexico, 2011.
+
+\bibitem{Android}
+Saucedo M. y Torralbo~P. Sanz~D.
+\newblock {\em Introducci'on a Android}.
+\newblock PhD thesis, Universitad Complutense, Madrid, 2014.
+
+\bibitem{Lopez2017}
+J.~Lopez.
+\newblock Ingenier'ia de software.
+\newblock \textit{Facultad de Inform'atica - Universidad Polit'ecnica de
+  Valencia}, 2017.
+
+\bibitem{Munoz2013}
+R.~Mu'noz.
+\newblock Nodejs, javascript en servidor.
+\newblock \textit{Desarrollo web - Cantabria TIC}, 2013.
+
+\bibitem{Gallego}
+J.~Gallego.
+\newblock Ionic.
+\newblock \textit{Libros de GitBooks}, 2016.
+
+\bibitem{Cantabriatic}
+Cordova.org.
+\newblock Apache cordova.
+\newblock \textit{La fundaci'on de Software de Apache}, 2013.
+
+\bibitem{Pouch}
+D.~Harvey.
+\newblock Pouchdb.
+\newblock \textit{PouchDB.org}, 2014.
+
+\bibitem{Websql1997}
+J.~Mel'endez y M.~Tobar C.~Cortez.
+\newblock Base de datos en internet.
+\newblock \textit{Centro de Investigaci'on de la Universidad Centroamericana
+  Jos'e Sime'on Ca'nas}, 2015.
+
+\bibitem{Orlando2005}
+Brea O.F.
+\newblock Historia de las web services.
+\newblock url{https://desarrolloweb.com/articulos/1883.php}, 2005.
+
+\bibitem{Colourios2012}
+Kindberg y~Blair Colouris, Dollimore.
+\newblock {\em Sistemas Distribuidos}.
+\newblock Copyright., 5ta edici'on, 2012.
+
+\bibitem{Navarro2006}
+Navarro R.
+\newblock Rest vs web services.
+\newblock \textit{Facultad de Inform'atica - Universidad Politecnica de
+  Valencia}, 2006.
+
+\bibitem{Ibm2012}
+El desarrollo de aplicaciones m'oviles nativas, web o h'ibridas.
+\newblock \textit{Copyright IBM Corporation, Elaborado en los Estados Unidos de
+  Am'erica }, 2012.
+
+\bibitem{Morillo2014}
+J.~Morillo.
+\newblock {\em Introducci'on a los dispositivos m'oviles}.
+\newblock PhD thesis, Universidad Oberta de Catalunya, Espa'na, 2014.
+
+\bibitem{Adrian2012}
+A.~Vega.
+\newblock {\em Responsive Web Design: Interfaces Web Adaptables al dispositivo
+  empleado HTML5 Y CSS3}.
+\newblock PhD thesis, Escuela Polit'ecnica Superior de Ingenier'ia
+  Inform'atica, 2012.
+
+\bibitem{Cardenas2015}
+C.~Cardenas.
+\newblock Localstorage.
+\newblock \textit{Blog de Platzi}, 2015.
+
+\end{thebibliography}
